@@ -1,0 +1,29 @@
+{
+  "name": "tomatotray",
+  "version": "1.0.0",
+  "description": "番茄钟桌面应用",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.example.tomatotray",
+    "productName": "TomatoTray",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/tray-icon.ico"
+    },
+    "files": [
+      "**/*"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.13.1"
+  },
+  "dependencies": {
+    "electron-prompt": "^1.7.0",
+    "play-sound": "^1.1.6"
+  }
+}
