@@ -24,8 +24,8 @@
 
 1. 克隆项目到本地：
 ```
-git clone https://github.com/你的用户名/仓库名.git
-cd 仓库名
+git clone  https://github.com/CargenWong/TomatoTray.git
+cd TomatoTray
 ```
 2. 安装依赖：
 ```
