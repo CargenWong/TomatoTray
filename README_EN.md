@@ -21,44 +21,42 @@
 [**ENGLISH**](README_EN.md) | [**中文**](README.md)
 
 
-## 简洁易用的 Windows 番茄钟应用
+## Simple and Elegant Windows Pomodoro App
 
-这是一个基于 Electron 开发的轻量级番茄钟应用，灵感来自 macOS 上的开源软件 TomatoBar。  
-支持常驻托盘操作，定时提醒、声音提示、以及自定义番茄时长设置，专为 Windows 用户打造。
+A lightweight pomodoro timer application developed with Electron, inspired by the macOS open-source software TomatoBar.  
+Features system tray operation, timed notifications, sound alerts, and customizable pomodoro durations - specifically designed for Windows users.
 
-### 主要功能
+### Key Features
 
-- 托盘启动和停止番茄钟
-- 自定义番茄时长
-- 提示音 开 / 关
-- 到时弹窗 + 声音提醒
+- Start/stop timer from system tray
+- Customizable pomodoro duration
+- Toggle sound notifications
+- Visual popup + sound alert when timer ends
 
-### 安装与运行
+### Installation & Usage
 
-1. 克隆项目到本地：
+1. Clone the repository:
 ```
 git clone  https://github.com/CargenWong/TomatoTray.git
 cd TomatoTray
 ```
-2. 安装依赖：
+2. Install dependencies:
 ```
 npm install
 ```
-3. 启动应用：
+3. Run the application:
 ```
 npm start
 ```
 
-### 项目结构
+### Project Structure
 
 ```
 TomatoTray/
-├── assets/         # 静态文件
-├── config/         # 用户配置文件
-├── src/            # 主程序源码
-├── package.json    # npm项目信息和依赖
-├── README.md       # 项目说明
-└── .gitignore      # 忽略文件配置
+├── assets/         # Static files
+├── config/         # User configuration
+├── src/            # Main application source
+├── package.json    # npm project info and dependencies
+├── README.md       # Project documentation
+└── .gitignore      # Ignore file configuration
 ```
-
-
